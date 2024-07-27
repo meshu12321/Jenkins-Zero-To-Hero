@@ -21,7 +21,7 @@ pipeline {
                 script{
                     sh '''
                     echo 'Buid Docker Image'
-                    docker build -t ci-cd:v1 .
+                    docker build -t 9870128971/ci-cd:v1 .
                     '''
                 }
             }
